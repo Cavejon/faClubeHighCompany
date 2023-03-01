@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/historia.css">
+<script src="https://unpkg.com/phosphor-icons"></script>
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<title>HIGH</title>
+</head>
+<body>
+	<div class="menuFlex active">
+		<i class="ph-x" onclick="myFunction()"></i>
+		<div id="myDropdown" class="dropdown-content">
+			<a href="./index.html">HISTÓRIA</a> <a
+				href="./META-INF/pages/site/sugestoes.html">SUGESTÕES</a> <a
+				href="./META-INF/pages/site/lookBook.html">LOOKBOOK</a> <a
+				href="./META-INF/pages/site/contatos.html">CONTATOS</a>
+		</div>
+	</div>
+
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<a href="../../../index.html">HISTÓRIA</a> <a href="./sugestoes.html">SUGESTÕES</a>
+			<a href="./lookBook.html">LOOKBOOK</a> <a href="./contatos.html">CONTATOS</a>
+		</div>
+	</div>
+
+	<section>
+		<div>
+			<img src="img/HIGHLOGO.png" alt="logo da HIGH" class="logoHigh">
+		</div>
+
+		<div>
+			<img src="img/disneyhigh.jpg" alt="calca" class="disneycalca">
+		</div>
+
+		<div>
+			<img src="img/disney x high.jpeg" alt="flyer da high" class="flyer">
+		</div>
+		<p>
+			A história da High Company começa em 2012, quando ela foi fundada em
+			Curitiba por Diogo Roccon e alguns amigos que queriam ganhar a vida
+			com o que amavam. <br /> <br /> Com fortes referências do
+			streetwear, skate e o hype de outras marcas, os criadores
+			desenvolveram a marca com a intenção de traduzir as suas ideias,
+			sentimentos e visões em forma de peças únicas e com uma criatividade
+			totalmente diferente.<br /> <br /> Desde que nasceu, a High Company
+			sempre quebrou paradigmas e superou expectativas, até mesmo de quem
+			já estava acostumado a comprar peças do streetwear. Além disso, esse
+			é um dos maiores focos da empresa: entregar mais que o esperado,
+			mesmo que esperem muito. Aliando criatividade, primor, qualidade e
+			referências fortes, a empresa está tomando proporções mundiais. Um
+			dos maiores marcos da High é recente, onde ela fechou uma parceria
+			com ninguém menos que a Disney e Umbro.
+		</p>
+		<div>
+			<img src="img/umbro x high.jpeg" alt="umbro chuteira"
+				class="chuteira">
+		</div>
+		<div>
+			<img src="img/poloUmbro.jpg" alt="umbro polo" class="poloUmbro">
+		</div>
+	</section>
+	<script type="text/javascript" src="../../..menuDropDown.js"></script>
+</body>
+</html>

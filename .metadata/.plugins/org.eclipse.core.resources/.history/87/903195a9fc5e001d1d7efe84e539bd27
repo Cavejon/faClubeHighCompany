@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap')
+	;
+
+.logoHigh {
+	width: 221px;
+	height: 85px;
+	top: 31px;
+	right: 50%;
+	left: 43%;
+	position: absolute;
+	/* left: 50%; */
+}
+
+#contatos {
+	position: absolute;
+    width: 618px;
+    height: 94px;
+    left: 47%;
+    top: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 23px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#mailBox {
+	position: relative;
+	/* width: 427px; */
+	/* height: 39px; */
+	font-family: 'Inter';
+	/* font-style: normal; */
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 36px;
+	/* display: flex; */
+	/* align-items: center; */
+	/* text-align: center; */
+	color: #000000;
+	top: 376px;
+	left: 540px;
+}
+
+#instagram {
+	position: absolute;
+	width: 219px;
+	height: 43px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 36px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #000000;
+	top: 451px;
+	left: 608px;
+}
+
+.material-symbols-outlined {
+	top: 537px;
+	left: 793px;
+}
+
+.overlay {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.85);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.overlay-content {
+	position: relative;
+	top: 37%;
+	width: 100%;
+	text-align: center;
+}
+
+.overlay a {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	font-size: 70px;
+}
+
+#menuNav {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 6%;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+	display: block;
+}
+
+.mySVG {
+  background-image: url(instagram.svg);
+}

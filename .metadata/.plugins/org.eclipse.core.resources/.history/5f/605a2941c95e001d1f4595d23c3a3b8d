@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../../css/teste01.css">
+<title>Insert title here</title>
+</head>
+<body>
+  
+  	<div id="myNav" class="overlay">
+  
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn"
+        onclick="closeNav()">×
+    </a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+  
+<!-- Use any element to open/show the
+    overlay navigation menu -->
+<span onclick="openNav()">open</span>
+  
+  
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)"
+            class="closebtn" onclick="closeNav()">
+            ×
+        </a>
+  
+        <div class="overlay-content">
+            <a href="#">About</a>
+            <a href="#">Practice</a>
+            <a href="#">Courses</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+  
+    <span style="font-size:35px;cursor:pointer"
+            onclick="openNav()">
+        ≡
+    </span>
+  
+    <h2>GeeksForGeeks</h2>
+      
+    <p>
+        Click on the nav bar icon to
+        see full screen overlay:
+    </p>
+  
+    <script>
+        function openNav() {
+            document.getElementById(
+                "myNav").style.display = "block";
+        }
+  
+        function closeNav() {
+            document.getElementById(
+                "myNav").style.display = "none";
+        }
+    </script>
+</body>
+  
+</html>

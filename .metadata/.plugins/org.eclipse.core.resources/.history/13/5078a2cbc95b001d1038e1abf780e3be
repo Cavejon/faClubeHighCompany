@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../../css/sugestoes.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+<script src="https://unpkg.com/phosphor-icons"></script>
+<title>SUGESTÕES</title>
+</head>
+<body>
+
+	<div id="btn-content">
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn" >Menu</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="../../../index.html">HISTÓRIA</a> <a
+					href="./sugestoes.html">SUGESTÕES</a> <a href="./lookBook.html">LOOKBOOK</a>
+				<a href="./contatos.html">CONTATOS</a>
+			</div>
+		</div>
+	</div>
+	<div>
+
+		<img src="../../../img/HIGHLOGO.png" alt="logo da HIGH"
+			class="logoHigh">
+	</div>
+
+	<h2 id="topoId">
+		<b>SUGESTÕES</b>
+	</h2>
+
+	<section class="faleConosco">
+
+		<form name="frmsugestões" method="post" action="#">
+			<fieldset>
+				<legend>Preencha</legend>
+				<i class="fa-regular fa-user"></i><label for="nome">NOME: </label> <input
+					type="text" name="txtnome" id="nome"
+					placeholder="DIGITE O SEU NOME COMPLETO!"> <label
+					for="email">E-MAIL: </label> <input type="text" name="txtnome"
+					id="nome" placeholder="DIGITE O SEU E-MAIL!"> <label
+					for="fone">TELEFONE: </label> <input type="text" name="txtfone"
+					id="fone" placeholder="DIGITE O SEU TELEFONE COMPLETO!">
+			</fieldset>
+			<fieldset class="sugestoesAqui">
+				<legend>Motivo do contato:</legend>
+				<label for="motivo">Motivo:</label> <select name="selmotivo"
+					id="motivo">
+					<option value="">Escolha</option>
+					<option value="RE">Reclamação:</option>
+					<option value="SU">Sugestão:</option>
+				</select> <label for="comentario">Sugestão:</label>
+				<textarea name="txacomentario" id="comentario"
+					placeholder="DIGITE O SEU E-MAIL!"></textarea>
+				<button type="reset">Limpar</button>
+				<button type="submit">Enviar</button>
+			</fieldset>
+		</form>
+	</section>
+	<script type="text/javascript" src="menuDropDown.js"></script>
+</body>
+</html>

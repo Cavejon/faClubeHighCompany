@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../../css/lookBook.css">
+<script src="https://unpkg.com/phosphor-icons"></script>
+<script src="lookBook.js" defer></script>
+</head>
+<body>
+
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<a href="../../../index.html">HISTÓRIA</a> <a href="./sugestoes.html">SUGESTÕES</a>
+			<a href="./lookBook.html">LOOKBOOK</a> <a href="./contatos.html">CONTATOS</a>
+		</div>
+	</div>
+	
+	
+	<div class="carousel">
+	<div class="container" id="img">
+	<img src="./../../img/foto1.png">
+	<img src="./../../img/foto2.png">
+	<img src="./../../img/foto3.png">
+	<img src="./../../img/foto4.png">
+	<img src="./../../img/foto5.png">
+	<img src="./../../img/foto6.png">
+	<img src="./../../img/foto7.png">
+	<img src="./../../img/foto8.png">
+	<img src="./../../img/foto9.png">
+	<img src="./../../img/foto10.png">
+	<img src="./../../img/foto11.png">
+	<img src="./../../img/foto12.png">
+	<img src="./../../img/foto13.png">
+	<img src="./../../img/foto14.png">
+	<img src="./../../img/foto15.png">
+	<img src="./../../img/foto16.png">	
+	</div>
+	</div>
+
+
+	<script type="text/javascript" src="menuDropDown.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap')
+	;
+
+:root {
+	width: 96.3%;
+}
+
+@media screen and (min-width: 320px) {
+	:root {
+		width: 40.3%;
+	}
+}
+
+@media screen and (max-width: 2560px) {
+	:root {
+		width: 20.3%;
+	}
+}
+
+.logoHigh {
+	width: 13.125rem;
+	height: 5.3125rem;
+	top: 3.5rem;
+	left: 41.25rem;
+	position: absolute;
+}
+
+body {
+	height: 100%;
+	width: 50%;
+}
+
+.flyer {
+	position: absolute;
+	width: 13.5rem;
+	height: 11.375rem;
+	left: 1.3125rem;
+	display: block;
+	top: 17.8125rem;
+}
+
+.disneycalca {
+	position: absolute;
+	left: 1.3125rem;
+	top: 30.25rem;
+	width: 13.5rem;
+	height: 8.6875rem;
+}
+
+.chuteira {
+	position: absolute;
+	left: 81.125rem;
+	top: 17.75rem;
+	width: 12.6875rem;
+	height: 11.5625rem;
+}
+
+section p {
+	position: absolute;
+	width: 49.1875rem;
+	left: 23.75rem;
+	font-size: 1.1900rem;
+	line-height: 1.8125rem;
+	text-align: center;
+	top: 15.9375rem;
+}
+
+.poloUmbro {
+	position: absolute;
+	left: 81.125rem;
+	top: 29.5rem;
+	width: 12.6875rem;
+	height: 9.3125rem;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu {
+	height: 70px;
+	list-style: none;
+	gap: .5rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: "Inter";
+}
+
+#menu {
+	list-style: none;
+	padding: 0;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.85);
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.overlay-content {
+	position: relative;
+	top: 37%;
+	width: 100%;
+	text-align: center;
+}
+
+.overlay a {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	font-size: 70px;
+}
+
+#menuNav {
+	display: flex;
+	padding: 3.625rem;
+	max-width: 10px;
+}
+/**********************************
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 37px;
+	height: 35px;
+	text-decoration: none;
+}
+
+.btn::after {
+	content: "↑";
+	font-size: 22px;
+	font-weight: bold;
+	color: #000;
+	transition: margin-top 250ms;
+}
+
+.btn:hover::after {
+	margin-top: -8px;
+}
+*******************************/

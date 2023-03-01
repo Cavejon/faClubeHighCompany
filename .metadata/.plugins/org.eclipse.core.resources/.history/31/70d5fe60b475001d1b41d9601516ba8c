@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<meta name="keywords" content="Fã Clube HighComapny">
+<link rel="stylesheet" type="text/css" href="../../../css/contatos.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/phosphor-icons"></script>
+<title>HIGH</title>
+</head>
+<body>
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+			× </a>
+
+		<div class="overlay-content">
+			<a href="../../../index.html">HISTÓRIA</a> <a href="sugestoes.html">SUGESTÕES</a>
+			<a href="lookBook.html">LOOKBOOK</a> <a href="contatos.html">CONTATOS</a>
+		</div>
+	</div>
+
+	<span id="menuNav" style="font-size: 73px; cursor: pointer"
+		onclick="openNav()"> ≡ </span>
+
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.display = "block";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.display = "none";
+		}
+	</script>
+
+
+	<div>
+
+		<a
+			href="file:///C:/Users/pedro_cavejon/Downloads/desafioHighFaClube/ProjetoFaClubeHigh/WebContent/index.html">
+			<img src="../../../img/HIGHLOGO.png" alt="logo da HIGH"
+			class="logoHigh">
+		</a>
+	</div>
+	<br>
+	<h2 id="mailBox">
+
+
+		<i class="ph-envelope"></i> <b> contact@highcompanybr.com</b>
+
+
+	</h2>
+	<br>
+	<h3 id="instagram">
+
+		<i class="ph-instagram-logo"></i> <b> @highcompany</b>
+
+	</h3>
+	<script type="text/javascript" src="menuDropDown.js"></script>
+</body>
+</html>

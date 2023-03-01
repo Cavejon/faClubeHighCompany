@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../../css/contatos.css">
+<script src="https://unpkg.com/phosphor-icons"></script>
+<title>HIGH</title>
+</head>
+<body>
+	<div class="dropdown">
+		<button onclick="myFunction()" class="dropbtn">Menu</button>
+		<div id="myDropdown" class="dropdown-content">
+			<a href="../../../index.html">HISTÓRIA</a> <a href="./sugestoes.html">SUGESTÕES</a>
+			<a href="./lookBook.html">LOOKBOOK</a> <a href="./contatos.html">CONTATOS</a>
+		</div>
+	</div>
+
+	<div>
+		<img src="../../../img/HIGHLOGO.png" alt="logo da HIGH"
+			class="logoHigh">
+	</div>
+
+	<h1 id="contatos">
+		<b>CONTATOS</b>
+	</h1>
+	<br>
+	<h2 id="mailBox">
+		<b>contact@highcompanybr.com</b>
+	</h2>
+	<br>
+	<i class="fa-brands fa-instagram"></i>
+	<h3 id="instagram">
+		<b>@highcompany</b>
+	</h3>
+	<script type="text/javascript" src="menuDropDown.js"></script>
+</body>
+</html>

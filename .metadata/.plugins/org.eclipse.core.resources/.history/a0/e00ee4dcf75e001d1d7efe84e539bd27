@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap')
+	;
+
+.logoHigh {
+	width: 210px;
+	height: 85px;
+	top: 56px;
+	left: 43%;
+	position: absolute;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.flyer {
+	position: absolute;
+	width: 15%;
+	height: 24%;
+	left: 37px;
+	bottom: 420px;
+	display: block;
+	top: 285px;
+}
+
+.disneycalca {
+	position: absolute;
+	left: 37px;
+	top: 484px;
+	width: 15%;
+	height: 24%;
+}
+
+.chuteira {
+	position: absolute;
+	left: 1074px;
+	top: 43%;
+	width: 15%;
+	height: 24%;
+}
+
+section p {
+	position: absolute;
+	width: 547px;
+	left: 30%;
+	font-size: 19px;
+	line-height: 29px;
+	text-align: center;
+	top: 38%;
+}
+
+.poloUmbro {
+	position: absolute;
+	left: 80%;
+	top: 73%;
+	width: 172px;
+	height: 132px;
+	width: 15%;
+	height: 24%;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu {
+	height: 70px;
+	list-style: none;
+	gap: .5rem;
+	align-items: center;
+	justify-content: space-between;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: "Inter";
+}
+
+#menu {
+	list-style: none;
+	padding: 0;
+}
+/**********************************
+.menuFlex {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.menuFlex.active {
+	display: flex;
+}
+
+.menuFlex a {
+	font-family: "Inter";
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 800px;
+	height: 115px;
+}
+
+.menuFlex :nth-child(odd) {
+	background-color: #BABABA;
+	border: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+.menuFlex :nth-child(even) {
+	background-color: #D9D9D9;
+	border: 1px solid rgba(0, 0, 0, 0.9);
+}
+*****************************************/
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.85);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.overlay-content {
+	position: relative;
+	top: 37%;
+	width: 100%;
+	text-align: center;
+}
+
+.overlay a {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 40px;
+	color: white;
+	display: block;
+	transition: 0.3s;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 10px;
+	right: 35px;
+	font-size: 70px;
+}
+
+#menuNav {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 6%;
+}
+/**********************
+.btn-fixed {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  visibility: hidden;
+}
+.btn-fixed-visible{
+	visibility: visible;
+}
+****************/
+.btn {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 37px;
+    height: 35px;
+    /* background-color: #000; */
+    text-decoration: none;
+}
+.btn::after {
+content: "↑";
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    transition: margin-top 250ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
+

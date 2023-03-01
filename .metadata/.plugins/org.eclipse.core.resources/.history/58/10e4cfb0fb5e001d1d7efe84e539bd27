@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../../../css/sugestoes.css">
+<script src="https://unpkg.com/phosphor-icons"></script>
+<title>SUGESTÕES</title>
+</head>
+<body>
+
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+			× </a>
+
+	<div class="overlay-content">
+          <a href="./index.html">HISTÓRIA</a> <a
+				href="sugestoes.html">SUGESTÕES</a> <a
+				href="lookBook.html">LOOKBOOK</a> <a
+				href="contatos.html">CONTATOS</a>
+		</div>
+	</div>
+
+	<span id="menuNav" style="font-size: 73px; cursor: pointer"
+		onclick="openNav()"> ≡ </span>
+
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.display = "block";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.display = "none";
+		}
+	</script>
+	<div>
+		<img src="../../../img/HIGHLOGO.png" alt="logo da HIGH"
+			class="logoHigh">
+	</div>
+
+	<h2 id="topoId">
+		<b>SUGESTÕES</b>
+	</h2>
+
+	<section class="faleConosco">
+
+		<form name="frmsugestões" method="post" action="#">
+			<fieldset>
+				<legend>Preencha</legend>
+				<label for="nome">NOME: </label> <input type="text" name="txtnome"
+					id="nome" placeholder="DIGITE O SEU NOME COMPLETO!"> <label
+					for="email">E-MAIL: </label> <input type="text" name="txtnome"
+					id="nome" placeholder="DIGITE O SEU E-MAIL!"> <label
+					for="fone">TELEFONE: </label> <input type="text" name="txtfone"
+					id="fone" placeholder="DIGITE O SEU TELEFONE COMPLETO!">
+			</fieldset>
+			<fieldset class="sugestoesAqui">
+				<legend>Motivo do contato:</legend>
+				<label for="motivo">Motivo:</label> <select name="selmotivo"
+					id="motivo">
+					<option value="">Escolha</option>
+					<option value="RE">Reclamação</option>
+					<option value="SU">Sugestão</option>
+				</select> <label for="comentario">Sugestão:</label>
+				<textarea name="txacomentario" id="comentario"
+					placeholder="DIGITE A SUA SUGESTÃO!"></textarea>
+				<button type="reset">Limpar</button>
+				<button type="submit">Enviar</button>
+			</fieldset>
+		</form>
+	</section>
+
+	<a class="btn" href="#"></a>
+
+	<script type="text/javascript" src="menuDropDown.js"></script>
+</body>
+</html>
