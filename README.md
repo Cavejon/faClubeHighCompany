@@ -15,3 +15,6 @@ Com filas nas lojas físicas e estoques do e-commerce sumindo em minutos, as pe�
 
 A cada lançamento, a marca cresce vertiginosamente e se você quiser uma peça, é bom correr, pois são poucas unidades com bastante procura.
 
+![highCompany](https://user-images.githubusercontent.com/101670928/223182324-09ed5c28-eb4a-4663-b671-d756a0ee99f6.png)
+
+
